@@ -1,1 +1,1 @@
-# End-tern-Bekniyaz---Baglan
+# End-term-Bekniyaz---Baglan
