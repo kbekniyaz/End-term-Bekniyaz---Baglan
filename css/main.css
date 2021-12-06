@@ -1,38 +1,82 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-a{
-    text-decoration: none;
-}
-.container{
-    margin: 0 auto;
-    width: 1200px;
-}
-.header{
-    display: flex;
-    justify-content: space-between;
-}
-.navbar_items{
-    padding: 10px;
-}
-.header-navbar{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    margin: 10px;
-}
-.header-validation{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-.validation_items{
-    margin: 10px;
-    padding: 10px; 
-    border: slategray solid 1px ;
-    color: slategray;
-}
-.validation_items:hover{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family:Arial, Helvetica, sans-serif;
+    }
 
-}
+    a{
+        text-decoration: none;
+    }
+    li{
+        list-style: none;
+    }
+    .container{
+        margin: 0 auto;
+        width: 1300px;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: lightgrey solid 1px;
+    }
+    .navbar_items{
+        padding: 10px;
+        margin-left: 10px;
+    }
+    .header-navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        margin: 10px;
+    }
+    .header-navbar a{
+        color: black;
+    }
+    .header-validation{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .validation_items{
+        margin: 10px;
+        padding: 10px; 
+        border: slategray solid 1px ;
+        border-radius: 5px;     
+    }
+    .validation_items a{
+        color: slategray;
+    }
+    .validation_items:hover{
+        color: white;
+        background-color: slategray;
+    }
+    .validation_items a:hover{
+        color: white;
+    }
+    .footer-grid{
+        margin-top: 50px;
+        border-top: lightgray solid 1px;
+        padding-top:50px;
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+    }
+    .social-media_links{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .column_1_items{
+        margin-bottom: 10px;
+    }
+    .footer-abouthexlet li{
+        margin: 15px;
+    }
+    .footer-abouthexlet a,span{
+        color: darkgrey;
+
+    } 
+    
+    .fab{
+        color: darkgrey;
+    }
