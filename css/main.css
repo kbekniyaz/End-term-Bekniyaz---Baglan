@@ -130,3 +130,139 @@
        padding: 20px;
        margin: 20px;
     }
+    /* validator */
+   
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+    .main_container{
+        width: 70%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 55% 40%;
+        margin-top:4%;
+        
+        
+    }
+    .left-side{    
+    margin-right: 5%;
+    }
+    .fa-color{
+        color: #198754;
+    }
+    .main__link{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+    }
+   span a{
+       color: black;
+   }
+   i{
+       margin-bottom: 3%;
+   }
+   .right-side{
+       display: grid;
+       grid-template-rows: 80% 20%;
+
+    box-shadow: 0px 0px 5px 5px rgb(231, 231, 231);
+        
+   }
+   .box-rgt,.box-lft{
+       margin: 0 auto;
+      
+   }
+   .box-lft{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+   }
+   .box{
+       margin: 5%;
+   }
+   .box-rgt{
+       margin: 5%;
+
+   }
+   .form-label{
+       margin-bottom: 5rem;
+   }
+   .form-control {
+        appearance: none;
+        background-clip: padding-box;
+        background-color: #fff;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        color: #212529;
+        display: block;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: .375rem .75rem;
+        border-color:.15s ease-in-out;
+        box-shadow:.15s ease-in-out;
+        width: 100%;
+   }
+   .btn{
+       background-color: blue;
+       color: white;
+       margin-bottom: 5%;
+       
+   }
+   h1{
+      font-weight: 100;
+   }
+   main__name{
+       margin: 10% 0%;
+   }
+   .main__forget{
+       font-size: .875em;
+       margin: 5% 0%;
+       text-decoration: none;
+       text-align: right;
+   }
+   .main__link{
+       display: grid;
+       grid-template-columns: 30% 30% 30%;
+       align-items: center  ;
+   }
+   .border{
+    border: 1px solid #dee2e6 !important;
+    width: 32%;
+}
+
+    .bt {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #212529;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: .375rem .75rem;
+    text-align: center;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+}
+.main__new{
+    width: 0 auto;  
+    
+    margin: 12% 0%;
+    text-align: center;
+
+}
+.main__new span{
+    color: grey;
+}
+.box-rgt-btm{
+    background-color: rgb(240, 240, 240);
+}
+.main__text{
+font-size: 13px;
+margin-bottom: 5%;
+}
