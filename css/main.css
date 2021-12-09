@@ -97,9 +97,8 @@
         width: 500px;
         font-size: 40px;
     }
-
     .salute-column a{
-        padding: 10px;
+        padding: 15px 20px;
         background-color:rgb(41, 110, 238);
         font-size: 20px;
         color: white;
@@ -107,4 +106,27 @@
     }
     .salute-column a:hover{
         background-color: rgb(25, 93, 219);
+    }
+    .employment{
+        background-color: rgb(20, 22, 37);
+        color: white;
+        display: grid;
+        grid-template-columns: 700px 700px;
+        font-size: large;
+    }
+    .employment b{
+        font-size: 30px;
+    }
+    .employment p{
+        margin: 15px;
+    }
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        
+    }
+    .logos img{
+        width: 150px;
+       padding: 20px;
+       margin: 20px;
     }
