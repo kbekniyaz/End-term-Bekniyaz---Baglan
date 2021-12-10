@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Roboto&display=swap" rel="stylesheet">
     <title>Hexlet – больше чем школа программирования. Онлайн курсы сообщество программистов</title>
 </head>
 <body>
@@ -31,7 +33,7 @@
     <main>
         <div class="salute container">
             <div class="salute-column">
-                <h1>Онлайн - <span> школа программирования</span>, за выпускниками которой <span> охотятся</span> компании</h1>
+                <h1>Онлайн-<span>школа программирования</span>, за выпускниками которой <span> охотятся</span> компании</h1>
                 <p>Студенты Хекслета проходят гарантированные собеседования в компаниях-партнёрах</p>
                 <a href="#"> Начать учиться бесплатно</a>
             </div>
@@ -41,9 +43,9 @@
         </div>
         <div class="employment">
                 <div class="employment_column_1">
-                    <iframe src="frame-twit.html" frameborder="0" height="500px" width="500px"></iframe>
+                    <a class="twitter-timeline" data-width="700" data-height="600" href="https://twitter.com/HexletHQ/timelines/1436015167440134146?ref_src=twsrc%5Etfw">Трудоустройство и Хекслет - Curated tweets by HexletHQ</a>
                 </div>
-                <div class="employment_column_2">
+                <div class="employment__column_2">
                     <p>Первого студента мы трудоустроили в <b> 2013 году</b>. Тогда требования к знаниям джуниоров были выше, а трава зеленее</p>
                     <p>Это отразилось на программах обучения, на их проработке и глубине. Собеседования для студентов Хекслета проходят под девизом: «Хм, на Хекслете задачки были сложнее»</p>
                     <p>Иногда наши студенты попадают на работу без проведения технического интервью, только на основе анализа кода проектов                </p>
@@ -51,57 +53,129 @@
                 </div>
         </div>
 
-        <div class="section">
-            <div>
-                <div>Наши выпускники работают практически во <span> всех крупных IT-компаниях</span></div>
-                <span>Некоторые — на позиции технического директора</span>
+        <div class="section container">
+            <div class="section__header">
+                <div class="section__header_item">Наши выпускники работают практически во <span> всех крупных IT-компаниях</span></div>
+                <span id="section__header_span">Некоторые — на позиции технического директора</span>
             </div>
-            <div class="logos">
-                <img src="images/logo-alfa-890ab4ff5e4e9a25bc0b9efcda01c13e5354a6cca336fd6d995edd733d8c5279.svg" alt="AlfaBank">
-                <img src="images/mts-72bddcccf6ea63087ad1e152cb9ff5b18be5c2855ef7a4bcb03a3b5bf5452ba5.png" alt="">
-                <img src="images/kontur-5be553853a574d67b17a839c8a713c7987cd1b9a67675f39a155bc6fe12a4a68.svg" alt="">
-                <img src="images/one_two_trip-97813aacbba527b3e90098a0df87f30d24574e05701debbfb893bc7c8f927a37.svg" alt="">
-                <img src="images/otkritie-1e9865822c76b4291e3c64567751557d53a934518d5f1c889374c3a49680237d.svg" alt="">
-                <img src="images/ozon-0deeb1b2d8bca56365ef1458051d0b0505906e5e87efe4cf2d9b6fc7bc422426.svg" alt="">
-                <img src="images/peter_service-68394dd214c6b55c60d21c95af0edb381446deadc639bac92d7c2c975276f55d.png" alt="">
-                <img src="images/pkzdrav-01f68935f799469026a76e5d238f6250bdc3d3bab677c056df3eab39b650b645.svg" alt="">
-                <img src="images/qiwi-cd3bb8089339132813f22a3702b7331c5232288f691cbeecb3f1150351ff7937.svg" alt="">
-                <img src="images/rambler-1f796b82e7063320f02b0a6957435164993803b95046848107057a615fba39da.png" alt="">
-                <img src="images/regru-6b49711ba437059c039c297803c3cdab9163e8565f78eb11a4b12837f14ffebb.svg" alt="">
-                <img src="images/rtk_it-88e11c8d0cf9325bc7e5e374beaa3e5d6be8b329fa75871b8c3240855075eb86.svg" alt="">
-                <img src="images/sber_devices-e3837e95fc5219fc92ff3c53371b57e8dd42d5717cee236cb3d09bebf7b2cd1d.svg" alt="">
-                <img src="images/simple_life-8fe544d274c609b02e4f1711c262168a784954f065cc452c9efb310f89de858c.svg" alt="">
-                <img src="images/simtech-976689f4b2874c2c34d76f6482a76fd4fac0d85b5e09c31488b06a6033d61135.svg" alt="">
-                <img src="images/timeweb-f475fe4c6757c53bb37f782d8ccfdb19b95a3356883eac67fa2b67b7fd2e55f5.svg" alt="">
-                <img src="images/tinkoff-6f722c6ac77e1cf903f8fed4ce393f61cafb4808a9c796c0b31e522b5e6e77a0.svg" alt="">
-                <img src="images/uchiru-6f8bc3dfd3cbcc37bd4a6bb4d74613600f6bb35a4321bcfb08ece3395e9a8dc5.svg" alt="">
-                <img src="images/kion-590ae4e151f6d3f237706ac98e1b440b7f0a4cc0673bd0a1472ff6ec315c08aa.png" alt="">
-                <img src="images/vc_ru-1b8bb9557664068432c8676fa3b1782e731b6d4c24b2c0c2fc8d9f8e556fc819.png" alt="">
-                <img src="images/yandex-534b368c41381502c28a1c1b57ffcc38dfc6d97b4fb72aee9e4ccb5dbb87c76f.svg" alt="">
-                <img src="images/zarplataru-32bf371555a1dfe906be53c7d6ddf2bf6ebcec1f63fc23176fbeefce16a3202b.svg" alt="">
-                <img src="images/abbyy-3e4455e59357c35648eee1b753e1a2e5720b97d5eefbfafe38c7ff74155e4ee3.svg" alt="">
-                <img src="images/agima-e79c31f446fc32417baafa0f08a49b795af3e18b776eded6f54e007aae08025a.svg" alt="">
-                <img src="images/aviasales-3729dfcb2130db74e8864a8d58c81c671b3ea9f4a9fd709f216c31b80e487272.svg" alt="">
-                <img src="images/avito_tech-819375201e3bbc999be53e2d9a928e8e3c625e94f9886f2534f6d24ead7a9ff4.png" alt="">
-                <img src="images/bell_integrator-3341fe6871714029d7300d979807c3860406ae56a1dc0886ad26ed08d1f615d1.png" alt="">
-                <img src="images/bookmate_hrz-a3f33ccef0631874729d7c19b2d5bcaa39c8b2a665e55f7da977fe4eaa53bf9e.svg" alt="">
-                <img src="images/cdek_it-319d9a44c09b19ba5d8a05ecf1ef03e9152a051fe8142af7d62e0642f5c74399.svg" alt="">
-                <img src="images/city_mobil-7920a107ec666a3790c17c9a794312b6b64974d884c49327fc8566f2ee615dcf.svg" alt="">
-                <img src="images/csssr-4ed2f90a12fba3e5d8de1d1e86b789e633c33e9927d10a032ca881e36a868960.svg" alt="">
-                <img src="images/dc-c78db9d005a163587b28e5e8b9292de3a24cf7a87d1420372389d2135e9cfb6b.svg" alt="">
-                <img src="images/dualboot-fe9eb3fdd20f7de007284c197f1911fb83a8513b4d847a7f8fd2dfa9500bca8f.svg" alt="">
-                <img src="images/epam-8abe4be24c95a9025a790a846f64cd11cd0626069005dbde4b86a81a9b043392.png" alt="">
-                <img src="images/evrone-5ef6c148c935bb7bbc10bea49daa0e9c1dfd7edac7ab1f48a2f410dc70e14223.png" alt="">
-                <img src="images/flant-e577849ccc420a45e8801397d85d04d0cc3e8cb79c5e3602a926ef9ef24e97c0.svg" alt="">
-                <img src="images/funbox-3903337b3475d9698c0e77b5ad46720d8c0e4b94d17f6aa7d7fa19b40e39a356.svg" alt="">
-                <img src="images/greenatom_rossatom-f48a03f8b320af07e3c113c858651d0bd2eadd7022ff126529334d65ca0e5471.svg" alt="">
-                <img src="images/healthsamurai-de0cbe1265a2fea0977206e00fd46116a7a6abc4bc1eb218e68d5b8333a40196.svg" alt="">
-                <img src="images/insales-c271644fe868ef50c894a17756f45fa68dc1a461f937557d5d61c82302598141.svg" alt="">
-                <img src="images/itech-7fe68ad98171f25a5cd3aee165148d177a950dcde785638f1d2e2406f727ac0a.png" alt="">
-                <img src="images/jetrockets-00cbddf6d82c072812554639605d9d77e5589555f32cc3575afbb4748595a268.svg" alt="">
+            <div class="section__logos">
+                <img class="logos_item" src="images/logo-alfa-890ab4ff5e4e9a25bc0b9efcda01c13e5354a6cca336fd6d995edd733d8c5279.svg" alt="AlfaBank">
+                <img class="logos_item" src="images/mts-72bddcccf6ea63087ad1e152cb9ff5b18be5c2855ef7a4bcb03a3b5bf5452ba5.png" alt="">
+                <img class="logos_item" src="images/kontur-5be553853a574d67b17a839c8a713c7987cd1b9a67675f39a155bc6fe12a4a68.svg" alt="">
+                <img class="logos_item" src="images/one_two_trip-97813aacbba527b3e90098a0df87f30d24574e05701debbfb893bc7c8f927a37.svg" alt="">
+                <img class="logos_item" src="images/otkritie-1e9865822c76b4291e3c64567751557d53a934518d5f1c889374c3a49680237d.svg" alt="">
+                <img class="logos_item" src="images/ozon-0deeb1b2d8bca56365ef1458051d0b0505906e5e87efe4cf2d9b6fc7bc422426.svg" alt="">
+                <img class="logos_item" src="images/peter_service-68394dd214c6b55c60d21c95af0edb381446deadc639bac92d7c2c975276f55d.png" alt="">
+                <img class="logos_item" src="images/pkzdrav-01f68935f799469026a76e5d238f6250bdc3d3bab677c056df3eab39b650b645.svg" alt="">
+                <img class="logos_item" src="images/qiwi-cd3bb8089339132813f22a3702b7331c5232288f691cbeecb3f1150351ff7937.svg" alt="">
+                <img class="logos_item" src="images/rambler-1f796b82e7063320f02b0a6957435164993803b95046848107057a615fba39da.png" alt="">
+                <img class="logos_item" src="images/regru-6b49711ba437059c039c297803c3cdab9163e8565f78eb11a4b12837f14ffebb.svg" alt="">
+                <img class="logos_item" src="images/rtk_it-88e11c8d0cf9325bc7e5e374beaa3e5d6be8b329fa75871b8c3240855075eb86.svg" alt="">
+                <img class="logos_item" src="images/sber_devices-e3837e95fc5219fc92ff3c53371b57e8dd42d5717cee236cb3d09bebf7b2cd1d.svg" alt="">
+                <img class="logos_item" src="images/simple_life-8fe544d274c609b02e4f1711c262168a784954f065cc452c9efb310f89de858c.svg" alt="">
+                <img class="logos_item" src="images/simtech-976689f4b2874c2c34d76f6482a76fd4fac0d85b5e09c31488b06a6033d61135.svg" alt="">
+                <img class="logos_item" src="images/timeweb-f475fe4c6757c53bb37f782d8ccfdb19b95a3356883eac67fa2b67b7fd2e55f5.svg" alt="">
+                <img class="logos_item" src="images/tinkoff-6f722c6ac77e1cf903f8fed4ce393f61cafb4808a9c796c0b31e522b5e6e77a0.svg" alt="">
+                <img class="logos_item" src="images/uchiru-6f8bc3dfd3cbcc37bd4a6bb4d74613600f6bb35a4321bcfb08ece3395e9a8dc5.svg" alt="">
+                <img class="logos_item" src="images/kion-590ae4e151f6d3f237706ac98e1b440b7f0a4cc0673bd0a1472ff6ec315c08aa.png" alt="">
+                <img class="logos_item" src="images/vc_ru-1b8bb9557664068432c8676fa3b1782e731b6d4c24b2c0c2fc8d9f8e556fc819.png" alt="">
+                <img class="logos_item" src="images/yandex-534b368c41381502c28a1c1b57ffcc38dfc6d97b4fb72aee9e4ccb5dbb87c76f.svg" alt="">
+                <img class="logos_item" src="images/zarplataru-32bf371555a1dfe906be53c7d6ddf2bf6ebcec1f63fc23176fbeefce16a3202b.svg" alt="">
+                <img class="logos_item" src="images/abbyy-3e4455e59357c35648eee1b753e1a2e5720b97d5eefbfafe38c7ff74155e4ee3.svg" alt="">
+                <img class="logos_item" src="images/agima-e79c31f446fc32417baafa0f08a49b795af3e18b776eded6f54e007aae08025a.svg" alt="">
+                <img class="logos_item" src="images/aviasales-3729dfcb2130db74e8864a8d58c81c671b3ea9f4a9fd709f216c31b80e487272.svg" alt="">
+                <img class="logos_item" src="images/avito_tech-819375201e3bbc999be53e2d9a928e8e3c625e94f9886f2534f6d24ead7a9ff4.png" alt="">
+                <img class="logos_item" src="images/bell_integrator-3341fe6871714029d7300d979807c3860406ae56a1dc0886ad26ed08d1f615d1.png" alt="">
+                <img class="logos_item" src="images/bookmate_hrz-a3f33ccef0631874729d7c19b2d5bcaa39c8b2a665e55f7da977fe4eaa53bf9e.svg" alt="">
+                <img class="logos_item" src="images/cdek_it-319d9a44c09b19ba5d8a05ecf1ef03e9152a051fe8142af7d62e0642f5c74399.svg" alt="">
+                <img class="logos_item" src="images/city_mobil-7920a107ec666a3790c17c9a794312b6b64974d884c49327fc8566f2ee615dcf.svg" alt="">
+                <img class="logos_item" src="images/csssr-4ed2f90a12fba3e5d8de1d1e86b789e633c33e9927d10a032ca881e36a868960.svg" alt="">
+                <img class="logos_item" src="images/dc-c78db9d005a163587b28e5e8b9292de3a24cf7a87d1420372389d2135e9cfb6b.svg" alt="">
+                <img class="logos_item" src="images/dualboot-fe9eb3fdd20f7de007284c197f1911fb83a8513b4d847a7f8fd2dfa9500bca8f.svg" alt="">
+                <img class="logos_item" src="images/epam-8abe4be24c95a9025a790a846f64cd11cd0626069005dbde4b86a81a9b043392.png" alt="">
+                <img class="logos_item" src="images/evrone-5ef6c148c935bb7bbc10bea49daa0e9c1dfd7edac7ab1f48a2f410dc70e14223.png" alt="">
+                <img class="logos_item" src="images/flant-e577849ccc420a45e8801397d85d04d0cc3e8cb79c5e3602a926ef9ef24e97c0.svg" alt="">
+                <img class="logos_item" src="images/funbox-3903337b3475d9698c0e77b5ad46720d8c0e4b94d17f6aa7d7fa19b40e39a356.svg" alt="">
+                <img class="logos_item" src="images/greenatom_rossatom-f48a03f8b320af07e3c113c858651d0bd2eadd7022ff126529334d65ca0e5471.svg" alt="">
+                <img class="logos_item" src="images/healthsamurai-de0cbe1265a2fea0977206e00fd46116a7a6abc4bc1eb218e68d5b8333a40196.svg" alt="">
+                <img class="logos_item" src="images/insales-c271644fe868ef50c894a17756f45fa68dc1a461f937557d5d61c82302598141.svg" alt="">
+                <img class="logos_item" src="images/itech-7fe68ad98171f25a5cd3aee165148d177a950dcde785638f1d2e2406f727ac0a.png" alt="">
+                <img class="logos_item" src="images/jetrockets-00cbddf6d82c072812554639605d9d77e5589555f32cc3575afbb4748595a268.svg" alt="">
         </div>
-
+        <div class="section__footer">
+            Здесь могли бы быть логотипы других школ,
+в которых работают программистами наши студенты, но боимся, что школы не оценят :)
+        </div>
+    </div>
         
+
+
+    <div class="cards">
+        <div class="container">
+            <h1>Уговорили! Как начать учиться?</h1>
+            <div class="cards__block">
+                <h2>1. Определиться с направлением</h2>
+                <div class="cards__block_items">
+                    <div>
+                        <p>Хекслет проводит дни открытых дверей, открытые уроки, публикует истории успехов и аналитику по рынку</p>
+                    </div>
+                    <div class="cards__link">
+                        <a href="#">Дни открытых дверей</a>
+                        <a href="#">Истории успеха</a>
+                        <a href="#">Перспективность направлений разработки</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cards__block">
+                <h2>2. Выбрать программу обучения</h2>
+                <div class="cards__block_items">
+                    <div>
+                        <p>Подходит, если вы уже примерно представляете, что хотите. Если не знаете с чего начать, попробуйте профессию «Фронтенд-разработчик». Наиболее универсальный и популярный вариант</p>
+                    </div>
+                    <div class="cards__link">
+                        <a href="#">Фронтенд-разработчик</a>
+                        <a href="#">Python-разработчик</a>
+                        <a href="#">PHP-разработчик</a>
+                        <a href="#">Node.js-разработчик</a>
+                        <a href="#">Верстальщик</a>
+                        <a href="#">Java-разработчик</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cards__block">
+                <h2>3. Начать проходить бесплатную часть</h2>
+                <div class="cards__block_items">
+                    <div>
+                        <p>Попробуйте наши бесплатные курсы. Их рекомендуют для старта в профессии опытные разработчики, а другие школы используют для обучения своих студентов</p>
+                    </div>
+                    <div class="cards__link">
+                        <a href="#">Основы командной строки</a>
+                        <a href="#">Введение в Git</a>
+                        <a href="#">Основы программирования</a>
+                        <a href="#">Основы современной верстки</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="whatif">
+        <div class="container">
+            <h1>А что если?</h1>
+            <p id="whatif__p">«Я 35-летний гуманитарий, который забыл школьную математику, а вместо английского учил немецкий. Работа отнимает весь день и приходится мотаться в командировки. У меня семья, ипотека и два кота, а друзья говорят: "Зачем тебе это?". Не уверен, что потяну...»</p>
+            <p>Подобные вопросы нам задают буквально каждый день. Ответ здесь один: не попробуешь — не поймешь. Как Хекслет помогает начать, ничего не теряя?</p>
+            <div class="toto-monitor">
+                <img width="40%" src="images/tota-monitor-7d30687bf867aac57b43500ea9457e6fc04bf929a9e0058d8fbba7305056bbce.png" alt="tota-monitor">
+                    <div style="margin-top: 60px;">
+                        <p class="check"><i style="margin-right: 20px;" class="fas fa-check"></i> В начале каждой программы — <b>бесплатные курсы</b> с полноценной практикой</p>
+                        <p class="check"><i style="margin-right: 20px;" class="fas fa-check"></i> Возможность переключиться на <b>любую другую программу</b> прямо в процессе</p>
+                        <p class="check"><i style="margin-right: 20px;" class="fas fa-check"></i> Мягкие дедлайны. Учитесь <b>в своем темпе</b> и не переживайте насчет отчисления</p>
+                        <p class="check"><i style="margin-right: 20px;" class="fas fa-check"></i> Полный <b>возврат денег</b> в течение первых двух недель, если не пошло</p>
+                    </div>  
+            </div>
+        </div>  
+    </div>
     </main>
 
 
@@ -204,5 +278,5 @@
 
     <script src="js/app.js"></script>
     <script src="https://kit.fontawesome.com/83c2545468.js" crossorigin="anonymous"></script>
-</body>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>        
 </html>
